@@ -2,8 +2,8 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3791792690,
-	"viewrect" : [ 25.0, 106.0, 300.0, 500.0 ],
+	"modificationdate" : 3791810106,
+	"viewrect" : [ 526.0, 231.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"netmidi-client.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}

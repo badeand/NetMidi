@@ -11,4 +11,15 @@ io.on('connection', (socket) => {
         // console.log('note: ', msg);
         io.emit("notesend", msg)
     });
+
+
+
+
 });
+
+setInterval(ping, 1000);
+
+function ping() {
+    // console.log(`ping`);
+    io.emit("ping", [])
+}
