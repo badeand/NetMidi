@@ -5,6 +5,9 @@ let socket = undefined
 
 
 Max.addHandler("connect", msg => {
+
+    console.log(`Connecting to server: ${msg}`)
+
     socket = io(msg);
 
     socket.on("connect", () => {

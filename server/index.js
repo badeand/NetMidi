@@ -13,8 +13,6 @@ io.on('connection', (socket) => {
     });
 
 
-
-
 });
 
 setInterval(ping, 1000);
