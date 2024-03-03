@@ -2,8 +2,8 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3792302989,
-	"viewrect" : [ 967.0, 351.0, 308.0, 597.0 ],
+	"modificationdate" : 3792306496,
+	"viewrect" : [ 345.0, 322.0, 308.0, 597.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -36,6 +36,11 @@
 			}
 ,
 			"client.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"midimonitor.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

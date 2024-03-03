@@ -18,6 +18,7 @@ io.on('connection', (socket) => {
 setInterval(ping, 1000);
 
 function ping() {
-    // console.log(`ping`);
     io.emit("ping", [])
 }
+
+console.log("Server started")

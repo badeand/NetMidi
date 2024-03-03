@@ -21,9 +21,8 @@ Max.addHandler("connect", msg => {
     });
     
     socket.on('notesend', (msg) => {
-        // console.log('notesend: ', msg);
         parts = msg.split(" ")
-        Max.outlet("note", Number.parseInt(parts[0]), Number.parseInt(parts[1]), Number.parseInt(parts[2]));
+        Max.outlet("receivednote", Number.parseInt(parts[0]), Number.parseInt(parts[1]), Number.parseInt(parts[2]));
     });
     
 
@@ -33,7 +32,7 @@ Max.addHandler("connect", msg => {
 });
 
 
-Max.addHandler("note", (channel, note, velocity) => {
+Max.addHandler("sendnote", (channel, note, velocity) => {
     if (socket) {
         socket.emit("note", `${channel} ${note} ${velocity}`);
     }
