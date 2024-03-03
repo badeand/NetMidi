@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1612.0, 1769.0 ],
+		"rect" : [ 1345.0, 714.0, 1797.0, 1119.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 628.922708928585052, 715.0, 51.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "stopped"
 				}
 
@@ -370,12 +369,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-61",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 738.674104034900665, 263.535936892032623, 188.0, 22.0 ],
-					"text" : "connect http://localhost:3000"
+					"patching_rect" : [ 738.674104034900665, 263.535936892032623, 188.0, 35.0 ],
+					"text" : "connect http://172.232.142.155:3000"
 				}
 
 			}
@@ -412,7 +412,7 @@
 					"patching_rect" : [ 642.0, 871.0, 113.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 55.0, 113.0, 20.0 ],
-					"text" : "started"
+					"text" : "stopped"
 				}
 
 			}
@@ -469,7 +469,7 @@
 					"patching_rect" : [ 1051.381316363811493, 154.143661201000214, 213.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 30.0, 213.0, 20.0 ],
-					"text" : "http://123:3000"
+					"text" : "http://172.232.142.155:3000"
 				}
 
 			}
@@ -620,6 +620,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -876,6 +878,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
+					"order" : 1,
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"midpoints" : [ 1060.881316363811493, 90.0, 1038.0, 90.0, 1038.0, 216.0, 1060.881316363811493, 216.0 ],
+					"order" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
