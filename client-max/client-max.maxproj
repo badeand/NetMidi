@@ -2,9 +2,9 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3791995479,
-	"viewrect" : [ 439.0, 326.0, 308.0, 845.0 ],
-	"autoorganize" : 1,
+	"modificationdate" : 3792299692,
+	"viewrect" : [ 439.0, 238.0, 308.0, 845.0 ],
+	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
@@ -70,6 +70,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/dev/NetMidi/client-max/node",
+			"projectrelativepath" : "./node",
+			"label" : "node",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 1
+		}
 
 	}
 ,
