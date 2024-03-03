@@ -4,7 +4,7 @@
 			"path": "server"
 		},
 		{
-			"path": "client-max/code"
+			"path": "client-max/node"
 		}
 	],
 	"settings": {}

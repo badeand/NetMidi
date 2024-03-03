@@ -2,8 +2,8 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3792299692,
-	"viewrect" : [ 439.0, 238.0, 308.0, 845.0 ],
+	"modificationdate" : 3792302989,
+	"viewrect" : [ 967.0, 351.0, 308.0, 597.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -20,20 +20,24 @@
 				"local" : 1
 			}
 ,
-			"netmidi-client.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"vsttest.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"DrumAndBass.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"netmidi-connector.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1,
-				"toplevel" : 1
+				"singleton" : 				{
+					"bootpath" : "~/dev/NetMidi/client-max/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"client.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -56,10 +60,6 @@
 				"kind" : "json",
 				"local" : 1
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 
