@@ -38,7 +38,6 @@ Max.addHandler("connect", msg => {
     socket.on('speedtest', (msg) => {
         let currentTime = new Date().getTime();
         const latency = currentTime - msg;
-        // console.log(`speedtest: ${currentTime - msg}`)
         Max.outlet("latency", latency);
     });
 });
@@ -62,7 +61,7 @@ Max.addHandler("username", msg => {
 })
 
 
-setInterval(speedtest, 1000);
+setInterval(speedtest, 2000);
 
 function speedtest() {
     if (socket) {
