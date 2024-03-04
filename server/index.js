@@ -1,4 +1,6 @@
-const io = require('socket.io')(3000);
+const port = 3000
+
+const io = require('socket.io')(port);
 const axios = require('axios');
 
 io.on('connection', (socket) => {
@@ -57,7 +59,7 @@ console.log("Server started")
 
 axios.get('https://api.ipify.org?format=json')
   .then(response => {
-    console.log('My public IP address is:', response.data.ip);
+    console.log('Server address:', `http://${response.data.ip}:${port}`);
   })
   .catch(error => {
     console.error('Error:', error);
