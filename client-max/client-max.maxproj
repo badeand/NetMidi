@@ -2,11 +2,11 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3792306496,
+	"modificationdate" : 3792391725,
 	"viewrect" : [ 345.0, 322.0, 308.0, 597.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
-	"showdependencies" : 1,
+	"showdependencies" : 0,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
@@ -27,17 +27,13 @@
 ,
 			"netmidi-connector.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/dev/NetMidi/client-max/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
 			"client.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"midimonitor.maxpat" : 			{
@@ -86,7 +82,7 @@
 
 	}
 ,
-	"detailsvisible" : 1,
+	"detailsvisible" : 0,
 	"amxdtype" : 0,
 	"readonly" : 0,
 	"devpathtype" : 0,

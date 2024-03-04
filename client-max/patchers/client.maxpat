@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2558.0, 1769.0 ],
+		"rect" : [ 560.0, 326.0, 364.0, 219.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,38 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 12.0, 9.0, 67.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"allwindowsactive" : 0,
+						"appicon_mac" : "",
+						"appicon_win" : "",
+						"audiosupport" : 1,
+						"bundleidentifier" : "com.mycompany.myprogram",
+						"cantclosetoplevelpatchers" : 1,
+						"cefsupport" : 1,
+						"copysupport" : 0,
+						"database" : 0,
+						"extensions" : 1,
+						"gensupport" : 0,
+						"midisupport" : 1,
+						"noloadbangdefeating" : 0,
+						"overdrive" : 0,
+						"preffilename" : "",
+						"searchformissingfiles" : 1,
+						"statusvisible" : 1,
+						"usesearchpath" : 0
+					}
+,
+					"text" : "standalone"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-45",
 					"justification" : 1,
 					"maxclass" : "live.line",
@@ -47,7 +79,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 825.930204093456268, 71.279068291187286, 108.139531016349792, 7.558139264583588 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.353533625602722, 212.626252233982086, 356.974562644958496, 5.0 ]
+					"presentation_rect" : [ 0.15748031437397, 211.023621261119843, 356.974562644958496, 5.0 ]
 				}
 
 			}
@@ -60,7 +92,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 810.930204093456268, 56.279068291187286, 108.139531016349792, 7.558139264583588 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.353533625602722, 1.51515144109726, 356.974562644958496, 5.0 ]
+					"presentation_rect" : [ 0.15748031437397, 0.0, 356.974562644958496, 5.0 ]
 				}
 
 			}
@@ -86,7 +118,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1174.27520078420639, 506.1764917075634, 57.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 166.666658520698547, 54.545451879501343, 57.0, 16.0 ],
+					"presentation_rect" : [ 131.496062502264977, 52.913385629653931, 57.0, 16.0 ],
 					"text" : "Connection"
 				}
 
@@ -102,7 +134,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1157.216376543045044, 507.058844685554504, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.494942188262939, 55.050502359867096, 15.0, 15.0 ],
+					"presentation_rect" : [ 114.330708235502243, 53.543306887149811, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -256,7 +288,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1433.582038283348083, 459.022160708904266, 54.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.92929083108902, 9.59595912694931, 54.0, 18.0 ],
+					"presentation_rect" : [ 7.874015718698502, 8.031496033072472, 54.0, 18.0 ],
 					"text" : "Username:"
 				}
 
@@ -270,7 +302,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 422.308976411819458, 257.192694783210754, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.353533625602722, 3.535353362560272, 5.253283202648163, 212.92914542555809 ]
+					"presentation_rect" : [ 0.15748031437397, 1.88976377248764, 5.253283202648163, 212.92914542555809 ]
 				}
 
 			}
@@ -283,7 +315,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 795.930204093456268, 41.279068291187286, 108.139531016349792, 7.558139264583588 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.353533625602722, 71.717168211936951, 356.974562644958496, 5.0 ]
+					"presentation_rect" : [ 0.15748031437397, 70.078739896416664, 356.974562644958496, 5.0 ]
 				}
 
 			}
@@ -298,7 +330,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 255.470589637756348, 246.5, 62.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 287.878773808479309, 97.979793190956116, 91.0, 16.0 ],
+					"presentation_rect" : [ 252.755904570221901, 96.377952396869659, 91.0, 16.0 ],
 					"text" : "Received channels:"
 				}
 
@@ -313,7 +345,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 682.608673274517059, 522.5, 37.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.363627254962921, 141.414134502410889, 37.0, 16.0 ],
+					"presentation_rect" : [ 151.18110179901123, 139.842519164085388, 37.0, 16.0 ],
 					"text" : "Output"
 				}
 
@@ -329,7 +361,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 665.652152091264725, 523.043461114168167, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.191910922527313, 141.919184982776642, 15.0, 15.0 ],
+					"presentation_rect" : [ 134.015747532248497, 140.314960107207298, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -355,7 +387,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 806.000024020671844, 256.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 387.373718440532684, 4.040403842926025, 5.0, 213.520580694079399 ]
+					"presentation_rect" : [ 352.283463254570961, 2.519685029983521, 5.0, 213.520580694079399 ]
 				}
 
 			}
@@ -368,7 +400,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 407.308976411819458, 242.192694783210754, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.626254677772522, 72.222218692302704, 5.0, 144.819280669093132 ]
+					"presentation_rect" : [ 127.559054642915726, 70.708661153912544, 5.0, 144.819280669093132 ]
 				}
 
 			}
@@ -383,7 +415,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 562.5, 200.0, 99.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.191910922527313, 81.818177819252014, 99.0, 20.0 ],
+					"presentation_rect" : [ 134.015747532248497, 80.314960330724716, 99.0, 20.0 ],
 					"text" : "MIDI from Net"
 				}
 
@@ -401,7 +433,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 717.0, 430.612259656190872, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.191910922527313, 120.707064807415009, 116.561223566532135, 19.047618865966797 ],
+					"presentation_rect" : [ 134.015747532248497, 119.055117666721344, 116.561223566532135, 19.047618865966797 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -420,7 +452,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 264.5, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.939391791820526, 120.707064807415009, 116.461263686418533, 19.18367412686348 ],
+					"presentation_rect" : [ 8.818897604942322, 119.055117666721344, 116.461263686418533, 19.18367412686348 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -436,7 +468,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 240.470589637756348, 231.5, 62.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.92929083108902, 159.09090131521225, 61.0, 16.0 ],
+					"presentation_rect" : [ 7.874015718698502, 157.480314373970032, 61.0, 16.0 ],
 					"text" : "To channel:"
 				}
 
@@ -489,7 +521,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 717.0, 363.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.191910922527313, 104.040398955345154, 44.0, 15.0 ],
+					"presentation_rect" : [ 134.015747532248497, 102.519684657454491, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -536,7 +568,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
 					"id" : "obj-108",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "FaderPort", ",", "SparkFun Pro Micro", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -544,7 +576,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 717.0, 430.612259656190872, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 169.191910922527313, 120.707064807415009, 116.561223566532135, 19.0 ],
+					"presentation_rect" : [ 134.015747532248497, 119.055117666721344, 116.561223566532135, 19.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -638,7 +670,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 452.0, 477.0, 104.424787163734436, 100.884963870048523 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 287.878773808479309, 116.666660964488983, 104.424787163734436, 100.884963870048523 ],
+					"presentation_rect" : [ 252.755904570221901, 115.118109807372093, 104.424787163734436, 100.884963870048523 ],
 					"viewvisibility" : 1
 				}
 
@@ -1015,7 +1047,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 323.0, 234.0, 38.053100407123566, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.282822012901306, 159.09090131521225, 32.244899064302444, 15.0 ],
+					"presentation_rect" : [ 93.228346109390259, 157.480314373970032, 32.244899064302444, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16" ],
@@ -1194,7 +1226,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 82.0, 94.0, 92.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.939391791820526, 81.818177819252014, 89.0, 20.0 ],
+					"presentation_rect" : [ 8.818897604942322, 80.314960330724716, 89.0, 20.0 ],
 					"text" : "MIDI to Net"
 				}
 
@@ -1209,7 +1241,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 58.0, 306.0, 30.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 56.565653800964355, 141.414134502410889, 30.0, 16.0 ],
+					"presentation_rect" : [ 21.417322754859924, 139.842519164085388, 30.0, 16.0 ],
 					"text" : "Input"
 				}
 
@@ -1225,7 +1257,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 95.0, 308.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.92929083108902, 141.919184982776642, 15.0, 15.0 ],
+					"presentation_rect" : [ 7.874015718698502, 140.314960107207298, 15.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
@@ -1253,7 +1285,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 82.0, 165.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.92929083108902, 104.040398955345154, 44.0, 15.0 ],
+					"presentation_rect" : [ 7.874015718698502, 102.519684657454491, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1322,7 +1354,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
 					"id" : "obj-163",
-					"items" : [ "to Max 1", ",", "to Max 2", ",", "FaderPort", ",", "SparkFun Pro Micro", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2" ],
+					"items" : [ "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1330,7 +1362,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 82.0, 264.5, 150.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.939391791820526, 120.707064807415009, 116.461263686418533, 19.0 ],
+					"presentation_rect" : [ 8.818897604942322, 119.055117666721344, 116.461263686418533, 19.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -1660,7 +1692,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1445.132859647274017, 798.230152726173401, 39.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.92929083108902, 33.838382184505463, 39.0, 18.0 ],
+					"presentation_rect" : [ 7.874015718698502, 32.283464446663857, 39.0, 18.0 ],
 					"text" : "Server:"
 				}
 
@@ -1711,7 +1743,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1165.265582501888275, 226.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.868675291538239, 55.050502359867096, 44.0, 15.0 ],
+					"presentation_rect" : [ 201.732282713055611, 53.543306887149811, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1741,7 +1773,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1211.265582501888275, 226.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.040398955345154, 55.050502359867096, 44.0, 15.0 ],
+					"presentation_rect" : [ 68.976377695798874, 53.543306887149811, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1773,7 +1805,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1493.805429935455322, 798.230152726173401, 186.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.040398955345154, 32.323230743408203, 186.0, 21.0 ],
+					"presentation_rect" : [ 68.976377695798874, 30.708661302924156, 186.0, 21.0 ],
 					"rounded" : 0.0,
 					"text" : "http://localhost:3000",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2113,9 +2145,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1493.805429935455322, 457.522160708904266, 178.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.040398955345154, 8.080807685852051, 186.0, 20.858896613121033 ],
+					"presentation_rect" : [ 68.976377695798874, 6.456692889332771, 186.0, 20.858896613121033 ],
 					"rounded" : 0.0,
-					"text" : "Alma Frank",
+					"text" : "Marguerite Sims",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2687,7 +2719,8 @@
 			}
 , 			{
 				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"bootpath" : "~/dev/NetMidi/client-max/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -2707,7 +2740,8 @@
 			}
 , 			{
 				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"bootpath" : "~/dev/NetMidi/client-max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2720,7 +2754,8 @@
 			}
 , 			{
 				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "C74:/packages/Node for Max/patchers/debug-monitor",
+				"bootpath" : "~/dev/NetMidi/client-max/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
