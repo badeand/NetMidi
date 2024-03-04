@@ -35,6 +35,9 @@ io.on('connection', (socket) => {
         io.emit("notesend", msg)
     });
 
+    socket.on('speedtest', (msg) => {
+        io.emit("speedtest", msg)
+    });
 
 });
 

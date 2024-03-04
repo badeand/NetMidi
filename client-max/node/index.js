@@ -32,10 +32,14 @@ Max.addHandler("connect", msg => {
 
 
     socket.on('ping', (msg) => {
-
-        console.log(msg)
-
         Max.outlet("ping", msg);
+    });
+
+    socket.on('speedtest', (msg) => {
+        let currentTime = new Date().getTime();
+        const latency = currentTime - msg;
+        // console.log(`speedtest: ${currentTime - msg}`)
+        Max.outlet("latency", latency);
     });
 });
 
@@ -47,7 +51,6 @@ Max.addHandler("sendnote", (channel, note, velocity) => {
 });
 
 Max.addHandler("generatename", msg => {
-    console.log("generatename")
     Max.outlet("name", chance.name());
 })
 
@@ -58,5 +61,16 @@ Max.addHandler("username", msg => {
     }
 })
 
+
+setInterval(speedtest, 1000);
+
+function speedtest() {
+    if (socket) {
+        let currentTime = new Date().getTime();
+        socket.emit("speedtest", currentTime);
+    }
+    
+
+}
 
 Max.outlet("ready");
