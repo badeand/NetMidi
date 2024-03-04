@@ -11,7 +11,7 @@ Max.addHandler("connect", msg => {
 
     console.log(`Connecting to server: ${msg}`)
 
-    if( socket ) {
+    if (socket) {
         socket.disconnect()
     }
 
@@ -20,16 +20,16 @@ Max.addHandler("connect", msg => {
 
     socket.on("connect", () => {
         console.log("Connected to the server");
-        socket.emit("new-connection", username);
-    
+        socket.emit("setusername", username);
+
         Max.outlet("connected", 1);
     });
-    
+
     socket.on('notesend', (msg) => {
         parts = msg.split(" ")
         Max.outlet("receivednote", Number.parseInt(parts[0]), Number.parseInt(parts[1]), Number.parseInt(parts[2]));
     });
-    
+
 
     socket.on('ping', (msg) => {
 
@@ -46,13 +46,16 @@ Max.addHandler("sendnote", (channel, note, velocity) => {
     }
 });
 
-Max.addHandler("generatename", msg => { 
+Max.addHandler("generatename", msg => {
     console.log("generatename")
     Max.outlet("name", chance.name());
 })
 
-Max.addHandler("username", msg => { 
+Max.addHandler("username", msg => {
     username = msg;
+    if (socket) {
+        socket.emit("setusername", username);
+    }
 })
 
 

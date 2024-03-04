@@ -12,10 +12,10 @@ io.on('connection', (socket) => {
     })
 
 
-    socket.on("new-connection", (msg) => {
+    socket.on("setusername", (msg) => {
         socket.data.username = msg
         console.log({
-            "Event": "new-connection",
+            "Event": "setusername",
             "Socket ID": socket.id,
             "Username": socket.data.username,
         })
