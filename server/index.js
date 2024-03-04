@@ -1,4 +1,5 @@
 const io = require('socket.io')(3000);
+const axios = require('axios');
 
 io.on('connection', (socket) => {
 
@@ -52,3 +53,12 @@ function ping() {
 }
 
 console.log("Server started")
+
+
+axios.get('https://api.ipify.org?format=json')
+  .then(response => {
+    console.log('My public IP address is:', response.data.ip);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
