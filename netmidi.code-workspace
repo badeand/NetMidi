@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "client-max/node"
+		},
+		{
+			"path": "client-max/code"
 		}
 	],
 	"settings": {}

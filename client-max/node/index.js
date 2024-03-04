@@ -11,6 +11,11 @@ Max.addHandler("connect", msg => {
 
     console.log(`Connecting to server: ${msg}`)
 
+    if( socket ) {
+        socket.disconnect()
+    }
+
+
     socket = io(msg);
 
     socket.on("connect", () => {
@@ -27,7 +32,10 @@ Max.addHandler("connect", msg => {
     
 
     socket.on('ping', (msg) => {
-        Max.outlet("ping");
+
+        console.log(msg)
+
+        Max.outlet("ping", msg);
     });
 });
 

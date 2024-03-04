@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 560.0, 326.0, 364.0, 219.0 ],
+		"rect" : [ 832.0, 525.0, 1679.0, 1076.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,254 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-86",
+					"justification" : 1,
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 422.308976411819458, 257.192694783210754, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 352.180691733956337, 70.708661153912544, 5.0, 144.819280669093132 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Ableton Sans Medium ",
+					"fontsize" : 15.0,
+					"id" : "obj-83",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1156.716376543045044, 592.0, 59.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 361.083769023418427, 80.049266666173935, 57.0, 21.0 ],
+					"text" : "Users"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1156.716376543045044, 701.685449302196503, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"cols" : 1,
+					"colwidth" : 150,
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 9.5,
+					"gridlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"hcellcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"headercolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"hscroll" : 0,
+					"id" : "obj-70",
+					"maxclass" : "jit.cellblock",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "list", "", "", "" ],
+					"patching_rect" : [ 1156.716376543045044, 762.921409249305725, 175.28091287612915, 224.157321274280548 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 361.083769023418427, 101.444960623979568, 97.536952614784241, 108.128086358308792 ],
+					"rowheight" : 15,
+					"rows" : 2,
+					"sccolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"sgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
+					"stcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
+					"vscroll" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-85",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1156.716376543045044, 732.584328174591064, 117.0, 23.0 ],
+					"saved_object_attributes" : 					{
+						"filename" : "getusernames.js",
+						"parameter_enable" : 0
+					}
+,
+					"text" : "js getusernames.js"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
+					"patching_rect" : [ 1156.716376543045044, 671.348368227481842, 61.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 0,
+						"legacy" : 0,
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "dict ping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1156.716376543045044, 640.44948935508728, 62.0, 22.0 ],
+					"text" : "route ping"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 0.686274509803922, 0.670588235294118, 0.301960784313725, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 102.0, 457.0, 109.0, 22.0 ],
+									"text" : "s #0_netmidi-client"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 50.0, 100.0, 107.0, 22.0 ],
+									"text" : "r #0_netmidi-client"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-19",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 102.0, 40.0, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-20",
+									"index" : 1,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 44.0, 539.0, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 1156.716376543045044, 609.550610482692719, 89.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"style" : "default",
+					"text" : "p netmidi-client"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -53,7 +301,7 @@
 						"bundleidentifier" : "com.mycompany.myprogram",
 						"cantclosetoplevelpatchers" : 1,
 						"cefsupport" : 1,
-						"copysupport" : 0,
+						"copysupport" : 1,
 						"database" : 0,
 						"extensions" : 1,
 						"gensupport" : 0,
@@ -79,7 +327,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 825.930204093456268, 71.279068291187286, 108.139531016349792, 7.558139264583588 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.15748031437397, 211.023621261119843, 356.974562644958496, 5.0 ]
+					"presentation_rect" : [ 0.15748031437397, 211.023621261119843, 465.463241323828697, 5.756353743374348 ]
 				}
 
 			}
@@ -92,7 +340,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 810.930204093456268, 56.279068291187286, 108.139531016349792, 7.558139264583588 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.15748031437397, 0.0, 356.974562644958496, 5.0 ]
+					"presentation_rect" : [ 0.15748031437397, 0.0, 465.463241323828697, 5.0 ]
 				}
 
 			}
@@ -315,7 +563,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 795.930204093456268, 41.279068291187286, 108.139531016349792, 7.558139264583588 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.15748031437397, 70.078739896416664, 356.974562644958496, 5.0 ]
+					"presentation_rect" : [ 0.15748031437397, 70.078739896416664, 458.463241323828697, 6.157635897397995 ]
 				}
 
 			}
@@ -387,7 +635,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 806.000024020671844, 256.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.283463254570961, 2.519685029983521, 5.0, 213.520580694079399 ]
+					"presentation_rect" : [ 460.620721638202667, 3.259394310414791, 5.0, 213.520580694079399 ]
 				}
 
 			}
@@ -568,7 +816,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
 					"id" : "obj-108",
-					"items" : [ "AU DLS Synth 1", ",", "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "from Max 1", ",", "from Max 2", ",", "to client-max 1", ",", "to client-max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1743,7 +1991,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1165.265582501888275, 226.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.732282713055611, 53.543306887149811, 44.0, 15.0 ],
+					"presentation_rect" : [ 415.024659484624863, 53.448279589414597, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -1805,7 +2053,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1493.805429935455322, 798.230152726173401, 186.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.976377695798874, 30.708661302924156, 186.0, 21.0 ],
+					"presentation_rect" : [ 68.976377695798874, 30.708661302924156, 389.644343942403793, 20.935962051153183 ],
 					"rounded" : 0.0,
 					"text" : "http://localhost:3000",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2145,9 +2393,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1493.805429935455322, 457.522160708904266, 178.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 68.976377695798874, 6.456692889332771, 186.0, 20.858896613121033 ],
+					"presentation_rect" : [ 68.976377695798874, 6.456692889332771, 389.644343942403793, 20.935962051153183 ],
 					"rounded" : 0.0,
-					"text" : "Marguerite Sims",
+					"text" : "Janie Lloyd X",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2179,6 +2427,13 @@
 					"destination" : [ "obj-27", 0 ],
 					"midpoints" : [ 1503.305429935455322, 206.318570256233215, 1503.305429935455322, 206.318570256233215 ],
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-10", 0 ]
 				}
 
 			}
@@ -2242,6 +2497,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -2436,6 +2698,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-62", 1 ]
 				}
@@ -2513,8 +2782,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"source" : [ "obj-85", 0 ]
 				}
 
 			}
@@ -2719,6 +3002,13 @@
 			}
 , 			{
 				"name" : "fit_jweb_to_bounds.js",
+				"bootpath" : "~/dev/NetMidi/client-max/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "getusernames.js",
 				"bootpath" : "~/dev/NetMidi/client-max/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",

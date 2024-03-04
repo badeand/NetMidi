@@ -2,7 +2,7 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3792391725,
+	"modificationdate" : 3792407290,
 	"viewrect" : [ 345.0, 322.0, 308.0, 597.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -47,6 +47,16 @@
 			"index.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
+			}
+,
+			"getusernames.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/dev/NetMidi/client-max/code",
+					"projectrelativepath" : "./code"
+				}
+
 			}
 
 		}
