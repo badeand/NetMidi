@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 832.0, 525.0, 1679.0, 1076.0 ],
+		"rect" : [ 3421.0, 598.0, 462.0, 216.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 422.308976411819458, 257.192694783210754, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 352.180691733956337, 70.708661153912544, 5.0, 144.819280669093132 ]
+					"presentation_rect" : [ 352.180691733956337, 73.140272215008736, 5.015197813510895, 142.401222765445709 ]
 				}
 
 			}
@@ -101,7 +101,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 361.083769023418427, 101.444960623979568, 97.536952614784241, 108.128086358308792 ],
 					"rowheight" : 15,
-					"rows" : 2,
+					"rows" : 1,
 					"sccolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"sgcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
 					"stcolor" : [ 0.352941176470588, 0.352941176470588, 0.352941176470588, 1.0 ],
@@ -320,32 +320,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-45",
-					"justification" : 1,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 825.930204093456268, 71.279068291187286, 108.139531016349792, 7.558139264583588 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.15748031437397, 211.023621261119843, 465.463241323828697, 5.756353743374348 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"justification" : 1,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 810.930204093456268, 56.279068291187286, 108.139531016349792, 7.558139264583588 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.15748031437397, 0.0, 465.463241323828697, 5.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -543,19 +517,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-34",
-					"justification" : 1,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 422.308976411819458, 257.192694783210754, 5.0, 100.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.15748031437397, 1.88976377248764, 5.253283202648163, 212.92914542555809 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-31",
 					"justification" : 1,
 					"maxclass" : "live.line",
@@ -628,19 +589,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"justification" : 1,
-					"maxclass" : "live.line",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 806.000024020671844, 256.0, 5.0, 100.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 460.620721638202667, 3.259394310414791, 5.0, 213.520580694079399 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-18",
 					"justification" : 1,
 					"maxclass" : "live.line",
@@ -648,7 +596,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 407.308976411819458, 242.192694783210754, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 127.559054642915726, 70.708661153912544, 5.0, 144.819280669093132 ]
+					"presentation_rect" : [ 127.559054642915726, 73.140272215008736, 5.015197813510895, 142.401222765445709 ]
 				}
 
 			}
@@ -816,7 +764,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
 					"id" : "obj-108",
-					"items" : [ "AU DLS Synth 1", ",", "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "from Max 1", ",", "from Max 2", ",", "to client-max 1", ",", "to client-max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2395,7 +2343,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.976377695798874, 6.456692889332771, 389.644343942403793, 20.935962051153183 ],
 					"rounded" : 0.0,
-					"text" : "Janie Lloyd X",
+					"text" : "Glen Morton",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
