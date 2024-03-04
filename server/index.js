@@ -8,7 +8,6 @@ io.on('connection', (socket) => {
     console.log({
         "Event": "Connection",
         "Socket ID": socket.id,
-        "Username": socket.data.username,
     })
 
 
