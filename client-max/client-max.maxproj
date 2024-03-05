@@ -2,21 +2,41 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3791810106,
-	"viewrect" : [ 526.0, 231.0, 300.0, 500.0 ],
-	"autoorganize" : 1,
+	"modificationdate" : 3792407290,
+	"viewrect" : [ 345.0, 322.0, 308.0, 597.0 ],
+	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
-	"showdependencies" : 1,
+	"showdependencies" : 0,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
 			"main.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"channelfilter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"DrumAndBass.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"netmidi-connector.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"client.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
 ,
-			"netmidi-client.maxpat" : 			{
+			"midimonitor.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -28,11 +48,26 @@
 				"kind" : "javascript",
 				"local" : 1
 			}
+,
+			"getusernames.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/dev/NetMidi/client-max/code",
+					"projectrelativepath" : "./code"
+				}
+
+			}
 
 		}
 ,
 		"data" : 		{
 			"package.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"package-lock.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -46,6 +81,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/dev/NetMidi/client-max/node",
+			"projectrelativepath" : "./node",
+			"label" : "node",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 1
+		}
 
 	}
 ,
