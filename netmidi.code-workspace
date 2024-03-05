@@ -8,6 +8,9 @@
 		},
 		{
 			"path": "client-max/code"
+		},
+		{
+			"path": "doc"
 		}
 	],
 	"settings": {}

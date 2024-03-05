@@ -1,13 +1,26 @@
+
+rm -rf temp
+mkdir temp
+cd temp
+mkdir collected
+mkdir target
+cd target
+mkdir resources
+cd ..
+cd ..
+cp -r /Users/badeand/SynologyDrive/Documents/notater-privat/Fag/Maker/Prosjekter/NetMidi/Documentation/* ./temp/collected
+rm temp/collected/resources/*.md
+rm temp/collected/resources/*.svg
+
+cp temp/collected/resources/* temp/target/resources/
+
 node index.js
 
-gendoc_inventas.sh _Product\ Integration\ Test\ Plan.md
-rm _Product\ Integration\ Test\ Plan.md
-mv _Product\ Integration\ Test\ Plan.docx Product\ Integration\ Test\ Plan.docx
+cp ./resources/reference.docx temp/target
 
-gendoc_inventas.sh _Unit\ Test\ Plan.md
-rm _Unit\ Test\ Plan.md
-mv _Unit\ Test\ Plan.docx Unit\ Test\ Plan.docx
+cd temp/target
 
-gendoc_inventas.sh _Product\ Requirements.md
-rm _Product\ Requirements.md
-mv _Product\ Requirements.docx Product\ Requirements.docx
+pandoc -s "NetMidi System Documentation.md"  -o "NetMidi System Documentation.docx" \
+ --reference-doc=reference.docx 
+ 
+/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to pdf "NetMidi System Documentation.docx" --outdir .
