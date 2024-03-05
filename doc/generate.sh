@@ -22,5 +22,21 @@ cd temp/target
 
 pandoc -s "NetMidi System Documentation.md"  -o "NetMidi System Documentation.docx" \
  --reference-doc=reference.docx 
+
+ rm reference.docx
  
 /Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to pdf "NetMidi System Documentation.docx" --outdir .
+
+cd ../..
+
+rm -rf binary
+mkdir binary
+cp ./temp/target/*.pdf ./binary/
+rm ./temp/target/*.pdf
+cp ./temp/target/*.docx ./binary/
+rm ./temp/target/*.docx
+
+rm -rf markdown
+cp -r ./temp/target ./markdown
+
+rm -rf temp

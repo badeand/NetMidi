@@ -1,1 +1,0 @@
-![[client-max-main-window.png]]
