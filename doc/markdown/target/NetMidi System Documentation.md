@@ -1,13 +1,31 @@
 
+## Introduction
+
+NetMIDI is a free and open source application that allows you to send real time MIDI data over the internet. It acts as a virtual MIDI cable over the network and can be used to perform music together over internet or local network.
+
+The client is an application downloaded from the internet running on each participants computer. It is installed on each participants computer and is used to send and receive data from the other participants via the server. All clients communicate with a common server that recieves MIDI data and re-broadcasts data to all clients.
+
+Using the local client requires some knowledge of how to use MIDI data and MIDI devices.
+
+Setting up a server requires some knowledge of Linux and redimentary knowledge of networks. 
+
+It takes some time to transfer MIDI data over the internet. Therefore, to ensure low latency, server should be located near each client (e.g in the same county).
+
+## Working principle
+The following diagram shows the working principle and how each component is connected together:
+
+![](resources/Communication.png)
+
+- Each participant that plays an instrument use a MIDI device that can send MIDI data, e.g. keyboard or digital drums.
+- The MIDI unit(s) send MIDI data on a port to the NetMIDI client through a virtual MIDI port
+- NetMIDI client transmits the data to the central server
+- The central server re-transmits data received to all NetMIDI clients
+- The NetMIDI client converts received MIDI data from the net to ordninary MIDI data on a virtual MIDI port
+- One or more MIDI device (software or hardware) converts received data to sound
 
 
-
-## Overview of the user interface
-
-![](resources/client-max-main-window.png)
 
 ## How to connect - step by step
-
 
 The steps refer to the markings on the following screenshot:
 
@@ -30,11 +48,12 @@ The steps refer to the markings on the following screenshot:
 9. Check that some channels lights up. The blinking numbers indicates which channels are receiving data. For each participant there should be one channel blinking.
 10. Select the MIDI device you want to use to receive notes from the other participants. This unit will later be used to set up you DAW or plugin.
 	- if your desired device is not shown in the list, click Refresh
+## Overview of the user interface
+
+![](resources/client-max-main-window.png)
 
 
-## System architecture
 
-![](resources/Communication.png)
 
 ## Server installation
 
