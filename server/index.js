@@ -1,7 +1,6 @@
 const port = 3000
 
 const io = require('socket.io')(port);
-const axios = require('axios');
 
 io.on('connection', (socket) => {
 
@@ -57,12 +56,3 @@ function ping() {
 }
 
 console.log("Server started")
-
-
-axios.get('https://api.ipify.org?format=json')
-  .then(response => {
-    console.log('Server address:', `http://${response.data.ip}:${port}`);
-  })
-  .catch(error => {
-    console.error('Error:', error);
-  });
