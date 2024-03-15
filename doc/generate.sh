@@ -1,6 +1,5 @@
 
 rm -rf markdown
-mkdir markdown
 
 rm -rf binary
 mkdir binary
@@ -27,12 +26,12 @@ cp ./resources/reference.docx temp/target
 
 cd temp/target
 
-pandoc -s "NetMidi System Documentation.md"  -o "NetMidi System Documentation.docx" \
+pandoc -s "NetMidi_System_Documentation.md"  -o "NetMidi_System_Documentation.docx" \
  --reference-doc=reference.docx 
 
  rm reference.docx
  
-/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to pdf "NetMidi System Documentation.docx" --outdir .
+/Applications/LibreOffice.app/Contents/MacOS/soffice --headless --convert-to pdf "NetMidi_System_Documentation.docx" --outdir .
 
 cd ../..
 
@@ -42,6 +41,11 @@ cp ./temp/target/*.docx ./binary/
 rm ./temp/target/*.docx
 
 
-cp -r ./temp/target ./markdown
+cp -r ./temp/target .
+mv target markdown
+
+cat README-epilogue.md >> markdown/README.md
 
 rm -rf temp
+
+mv ./markdown/README.md ..

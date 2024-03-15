@@ -10,3 +10,5 @@ Using the local client requires some knowledge of how to use MIDI data and MIDI 
 Setting up a server requires some knowledge of Linux and redimentary knowledge of networks. 
 
 It takes some time to transfer MIDI data over the internet. Therefore, to ensure low latency, server should be located near each client (e.g in the same county).
+
+For more information, see [documentation](./doc/markdown/NetMidi_System_Documentation.md) or [download as PDF](./doc/binary/NetMidi_System_Documentation.pdf).

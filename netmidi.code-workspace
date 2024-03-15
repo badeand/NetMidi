@@ -10,7 +10,7 @@
 			"path": "client-max/code"
 		},
 		{
-			"path": "doc"
+			"path": "."
 		}
 	],
 	"settings": {}

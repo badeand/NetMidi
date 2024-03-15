@@ -19,7 +19,7 @@ markdownFiles.getByName("NetMidi System Documentation")
     .embedAllLinks(markdownFiles, resources, false, 4)
     .resolveResources(resources)
     .removeLinks()
-    .writeToFile("./temp/target/NetMidi System Documentation.md")
+    .writeToFile("./temp/target/NetMidi_System_Documentation.md")
 
 markdownFiles.getByName("README")
     .embedAllLinks(markdownFiles, resources, false, 4)
