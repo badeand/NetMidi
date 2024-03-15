@@ -129,3 +129,4 @@ dist
 client-max/node/.DS_Store
 client-max/patchers/.DS_Store
 doc/.DS_Store
+netmidi.code-workspace
