@@ -1,4 +1,3 @@
-cd /
 rm -rf NetMidi
 sudo apt-get update -y 
 sudo apt-get install nodejs npm git -y 
