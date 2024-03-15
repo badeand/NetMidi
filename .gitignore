@@ -125,6 +125,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-client-max/.DS_Store
-client-max/client-max/.DS_Store
 .DS_Store
+client-max/node/.DS_Store
+client-max/patchers/.DS_Store
+doc/.DS_Store
