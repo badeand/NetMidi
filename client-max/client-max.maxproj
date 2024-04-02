@@ -2,7 +2,7 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3792489375,
+	"modificationdate" : 3794923146,
 	"viewrect" : [ 345.0, 322.0, 308.0, 597.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -42,6 +42,11 @@
 			}
 ,
 			"latencymonitor.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"versioninfo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
