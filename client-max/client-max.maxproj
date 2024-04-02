@@ -2,8 +2,8 @@
 	"name" : "client-max",
 	"version" : 1,
 	"creationdate" : 3791792537,
-	"modificationdate" : 3794923146,
-	"viewrect" : [ 345.0, 322.0, 308.0, 597.0 ],
+	"modificationdate" : 3794925896,
+	"viewrect" : [ 737.0, 298.0, 308.0, 597.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 0,
@@ -68,6 +68,16 @@
 				}
 
 			}
+,
+			"parseversioninfo.js" : 			{
+				"kind" : "javascript",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/dev/NetMidi/client-max/code",
+					"projectrelativepath" : "./code"
+				}
+
+			}
 
 		}
 ,
@@ -80,6 +90,16 @@
 			"package-lock.json" : 			{
 				"kind" : "json",
 				"local" : 1
+			}
+,
+			"version.json" : 			{
+				"kind" : "json",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/dev/NetMidi/client-max",
+					"projectrelativepath" : "."
+				}
+
 			}
 
 		}
