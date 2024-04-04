@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1747.0, 548.0, 916.0, 536.0 ],
+		"rect" : [ 53.0, 122.0, 467.0, 276.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,75 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.250980392156863, 0.203921568627451, 0.937254901960784, 1.0 ],
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 941.911746999999991, 457.352932453155518, 84.0, 22.0 ],
+					"text" : "r #0_hidden"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 941.911746740341187, 555.147048234939575, 51.0, 22.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 941.911746740341187, 594.117635726928711, 67.0, 22.0 ],
+					"text" : "versioninfo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"automation" : "Version info",
+					"automationon" : "Version info",
+					"hidden" : 1,
+					"id" : "obj-24",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 941.911746999999991, 493.382343530654907, 60.545899987220764, 14.888336062431335 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 229.111663937568665, 60.545899987220764, 14.888336062431335 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "Version info", "Version info" ],
+							"parameter_longname" : "live.text[9]",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.text",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Info",
+					"texton" : "Advanced",
+					"varname" : "live.text[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-28",
 					"maxclass" : "message",
@@ -174,7 +243,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 931.0, 335.192694783210754, 84.0, 22.0 ],
+					"patching_rect" : [ 930.882335186004639, 348.529405117034912, 84.0, 22.0 ],
 					"text" : "r #0_hidden"
 				}
 
@@ -228,7 +297,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -379,13 +448,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -419,7 +488,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 102.0, 457.0, 109.0, 22.0 ],
+									"patching_rect" : [ 102.0, 172.0, 109.0, 22.0 ],
 									"text" : "s #0_netmidi-client"
 								}
 
@@ -431,7 +500,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 107.0, 22.0 ],
+									"patching_rect" : [ 44.0, 428.0, 107.0, 22.0 ],
 									"text" : "r #0_netmidi-client"
 								}
 
@@ -627,7 +696,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -843,7 +912,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1219,7 +1288,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
 					"id" : "obj-108",
-					"items" : [ "AU DLS Synth 1", ",", "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1340,7 +1409,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1467,7 +1536,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1729,7 +1798,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2005,7 +2074,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 9.0,
 					"id" : "obj-163",
-					"items" : [ "Keystation Mini 32", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "SparkFun Pro Micro", ",", "FaderPort", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "MantaMainOut", ",", "MantaExpOut", ",", "to Max 1", ",", "to Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2046,7 +2115,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2173,7 +2242,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2459,7 +2528,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.976377695798874, 30.708661302924156, 343.644343942403793, 20.800000309944153 ],
 					"rounded" : 0.0,
-					"text" : "http://20.251.169.170:3000",
+					"text" : "http://localhost:3000",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2476,7 +2545,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2600,7 +2669,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2799,7 +2868,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 68.976377695798874, 6.456692889332771, 343.644343942403793, 20.800000309944153 ],
 					"rounded" : 0.0,
-					"text" : "Effie Figueroa",
+					"text" : "Jose Watson",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -2822,6 +2891,18 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 761.0, 79.0, 384.0, 105.0 ],
 					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 941.911746999999991, 524.999990000000025, 35.0, 22.0 ],
+					"text" : "open"
 				}
 
 			}
@@ -3042,6 +3123,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 770.5, 232.238899528980255, 747.46895569562912, 232.238899528980255, 747.46895569562912, 73.778722822666168, 770.5, 73.778722822666168 ],
 					"source" : [ "obj-27", 0 ]
@@ -3093,6 +3181,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"order" : 1,
 					"source" : [ "obj-4", 0 ]
@@ -3111,6 +3206,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-41", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-43", 0 ]
 				}
 
 			}
@@ -3438,6 +3547,7 @@
 			"obj-1::obj-45" : [ "live.text[2]", "live.text[1]", 0 ],
 			"obj-1::obj-62" : [ "live.text[3]", "live.text[1]", 0 ],
 			"obj-1::obj-64" : [ "live.button", "live.button", 0 ],
+			"obj-24" : [ "live.text[9]", "live.text", 0 ],
 			"obj-26" : [ "live.button[5]", "live.button", 0 ],
 			"obj-29" : [ "live.menu", "live.menu", 0 ],
 			"obj-40" : [ "live.button[9]", "live.button", 0 ],
@@ -3620,10 +3730,24 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "parseversioninfo.js",
+				"bootpath" : "~/dev/NetMidi/client-max/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "resize_n4m_monitor_patcher.js",
 				"bootpath" : "~/dev/NetMidi/client-max/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "versioninfo.maxpat",
+				"bootpath" : "~/dev/NetMidi/client-max/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
