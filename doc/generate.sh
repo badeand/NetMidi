@@ -1,3 +1,13 @@
+export WIN_URL=$(jq -r '.win_url' ../client-max/version.json)
+echo "Win URL:    ${WIN_URL}"
+export MAC_URL=$(jq -r '.mac_url' ../client-max/version.json)
+echo "Mac URL:    ${MAC_URL}"
+
+
+cp ./templates/DOWNLOAD-template.md DOWNLOAD.md
+sed -i '' "s|mac_url|${MAC_URL}|g" DOWNLOAD.md
+sed -i '' "s|win_url|${WIN_URL}|g" DOWNLOAD.md
+
 
 rm -rf markdown
 
@@ -46,6 +56,12 @@ mv target markdown
 
 cat README-epilogue.md >> markdown/README.md
 
+cat README-epilogue.md >> markdown/README.md
+echo "\n\n\n## Download client binaries\n\n">> markdown/README.md
+cat DOWNLOAD.md >> markdown/README.md
+
 rm -rf temp
 
 mv ./markdown/README.md ..
+
+

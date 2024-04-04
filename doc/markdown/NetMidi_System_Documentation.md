@@ -71,6 +71,40 @@ The steps refer to the markings on the following screenshot:
 
 
 
+### How to set up NetMIDI on Azure
+
+The following steps sets up a virtual machine in Azure with the NetMIDI server
+
+1. Open to Azure Dashboard
+2. Click "Create resource"
+3. Click "Virtual Machine, Create"
+4. Set a name, eg. "netmidi-server"
+5. Choose a region near you
+6. Choose a Linux image, e.g. Untuntu 20
+7. Choose a size, e.g. Standard_B1s
+8. Set Authentication type, Password
+9. Set Username as "netmidi"
+10. Choose a password
+11. Set inbound ports:
+	- HTTP
+	- HTTPS
+	- SSL
+12. Click "Review + Create"
+13. Click "Create"
+14. Wait for the server to be deployed
+15. Click "Go to resource"
+16. Click "Network settings"
+17. Click "Create port rule", "Inbound port rule"
+19. Set "Destination port ranges": 3000
+20. Click add
+21. Click "Overview" and note down public IP address
+22. Click "Connect"
+23. Click "Move ways to connect"
+24. Click "Go to serial monitor"
+25. Log in to the server with username and password provided earlier
+26. Follow steps in section Server installation
+
+
 
 ## Background info
 
