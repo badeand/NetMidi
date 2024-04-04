@@ -56,7 +56,6 @@ mv target markdown
 
 cat README-epilogue.md >> markdown/README.md
 
-cat README-epilogue.md >> markdown/README.md
 echo "\n\n\n## Download client binaries\n\n">> markdown/README.md
 cat DOWNLOAD.md >> markdown/README.md
 
