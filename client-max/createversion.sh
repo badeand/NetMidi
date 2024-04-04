@@ -1,5 +1,5 @@
 export CURRENT_BRANCH=$(git branch --show-current)
-export CURRENT_HASH=$(git log -n 1 --pretty=format:%h -- client-max.maxproj)
+export CURRENT_HASH=$(git log -n 1 --pretty=format:%h -- ./patchers/client.maxpat)
 export CURRENT_DATETIME=$(date "+%Y%m%d_%H%M")
 
 echo "------VERSION INFO------"
